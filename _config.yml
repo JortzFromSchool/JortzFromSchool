@@ -1,0 +1,18 @@
+# Site settings
+title: XoXoCoCo
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Melancholia and other concepts as presented by the dumbest engineer in the smart people's school.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://xoxoco.co" # the base hostname & protocol for your site
+twitter_username: xfromy
+github_username:  jortzFromSchool
+
+paginate: 10
+highlighter: pygments
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+# Build settings
+markdown: redcarpet
+
